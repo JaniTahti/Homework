@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<center>
+		<table border="4">
+			<thead>
+				<tr>
+					<th>Etunimi</th>
+					<td><input type="text" name="Etu" id="Etu"></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>Sukunimi</th>
+					<td><input type="text" name="Suku" id="Suku"></td>
+				</tr>
+				<tr>
+					<th>lähiosoite</th>
+					<td><input type="text" name="Lähi" id="Lähi"></td>
+				</tr>
+				<tr>
+					<th>postinumero</th>
+					<td><input type="text" name="Posti" id="Posti"></td>
+				</tr>
+				
+				<tr>
+					<th>postitoimipaikka</th>
+					<td><input type="text" name="Postitoimi" id="Postitoimi"></td>
+				</tr>
+				<tr>
+					<th>puhelin</th>
+					<td><input type="text" name="Puh" id="Puh"></td>
+				</tr>
+				<tr>
+					<th>sähköposti</th>
+					<td><input type="text" name="Gmail" id="Gmail"></td>
+				</tr>
+				<tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="4" id="show">
+			<thead>
+				<tr>
+					<th>Etunimi</th>
+					<th>Sukunimi</th>
+					<th>lähiosoite</th>
+					<th>postinumero</th>
+					<th>postitoimipaikka</th>
+					<th>puhelin</th>
+					<th>sähköposti</th>
+			</tr>
+				<th>Jyri</th>
+				<th>Lindroos</th>
+				<th>Keskikatu 3</th>
+				<th>04200</th>
+				<th>Kerava</th>
+				<th>040 1744562</th>
+				<th>jyri.lindroos@keuda.fi</th>
+				
+			<tr>
+				<th>Jani</th>
+				<th>Tähti</th>
+				<th>Sammalplku 22</th>
+				<th>04410</th>
+				<th>Järvenpää</th>
+				<th>450 8928479</th>
+				<th>Jani.tahti@googlemail.com</th>
+			</tr>
+
+				<tr>
+					<th>Mikko</th>´
+					<th>tuntematon</th>
+					<th>katu 3</th>
+					<th>12345</th>
+					<th>kaupunki</th>
+					<th>123 1234567</th>
+					<th>mikko.tuntematon@gmail.com</th>
+				</tr>
+			</thead>
+		</table>
+	</center>
+	<script src="formi.js"></script>
+</body>
+</html>
