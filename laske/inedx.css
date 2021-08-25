@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(to right, rgb(43, 6, 128) , rgb(0, 0, 0));
+    
+}
+
+#Texti{
+    position: relative;
+    text-align: center;
+    top: 280px;
+    left: 860px;
+}
+
+#Nappi{
+    position: relative;
+    text-align: center;
+    top: 160px;
+    left: 900px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(83, 83, 241));
+    width: 100px;
+}
+
+#Paikka{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 320px;
+}
