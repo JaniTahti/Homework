@@ -1,0 +1,17 @@
+body{
+    background-image: linear-gradient(to right, rgb(43, 6, 128) , rgb(0, 0, 0));
+}
+
+#Nappula{
+    position: relative;
+    left: 860px;
+    top: 350px;
+   
+}
+
+#Paikka{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 420px;
+}

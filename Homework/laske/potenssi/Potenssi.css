@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(to right, rgb(235, 69, 69) , rgb(0, 0, 0));
+}
+
+#Nappula{
+    position: relative;
+    left: 850px;
+    top: 430px;
+}
+
+#Num1{
+    position: relative;
+    left: 782px;
+    top: 300px;
+}
+
+#Num2{
+    position: relative;
+    left: 600px;
+    top: 350px;
+}
+
+#Paikka{
+    position: relative;
+    color: white;
+    left: 870px;
+    top: 250px;
+}
