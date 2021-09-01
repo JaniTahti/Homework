@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(to right, rgb(27, 128, 14) ,rgb(114, 111, 111));
+
+}
+
+#Vastaus{
+    position: relative;
+    padding: auto;
+    color: black;
+    left: 723px;
+    top: 260px;
+}
+
+#Nappula{
+    position: relative;
+    padding: auto;
+    left: 660px;
+    top: 263px;
+}
+
+#Paikka{
+    position: relative;
+    padding: auto;
+    left: 656px;
+    top: 263px;
+}
+

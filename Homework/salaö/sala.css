@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(to right, rgb(224, 142, 190) , rgb(255, 255, 255));
+}
+
+#ÖNum1{
+    position: relative;
+    left: 800px;
+    top: 300px;
+}
+
+#Nappula{
+    position: relative;
+    left: 569px;
+    top: 300px;
+}
+
+#Paikka{
+    position: relative;
+    left:850px;
+    top: 300px;
+}
