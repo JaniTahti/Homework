@@ -1,0 +1,74 @@
+
+body{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image:linear-gradient(to bottom right, #000000 , #7300e6);
+    color:white;
+    
+  }
+  #title{
+    font-size:50px;
+  }
+  
+  #body{
+    width:600px;
+    padding:30px;
+    margin:auto;
+    border-radius:10px;
+    text-align:left;
+    background-color:rgba(0,0,0,0.6);
+    font-size:20px;
+    color:white;
+    
+  }
+
+  #nimi{
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  #email{
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  #number{
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  #dropdown{
+    width:560px;
+    padding:15px;
+    border-radius:10px;
+  }
+  #comment{
+    width:590px;
+    padding:10px;
+    border-radius:10px;
+    border:none;
+    
+  }
+  #submit{
+    width:590px;
+    padding:20px;
+    font-size:20px;
+    border-radius:10px;
+    border:none;
+    margin-top:3%;
+    color:white;
+    background-color:rgb(141, 54, 240);
+    
+  }
+  #Clear{
+    width:590px;
+    padding:20px;
+    font-size:20px;
+    text-align: center;
+    border-radius:10px;
+    border:none;
+    margin-top:3%;
+    color:white;
+    background-color:rgb(141, 54, 240);
+   
+  }

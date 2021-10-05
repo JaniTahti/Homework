@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WW1-2</title>
+<link rel="stylesheet" href="Form.css"></link>
+</head>
+   
+<script src="Form.js"></script>
+<body>
+    <form name="myform" method="POST">
+      <h1 id="title">Ensin mäisen ja toisen maailman sodan kysely</h1>
+
+      
+      <div id="body">
+      
+      <form id="survey-form">
+        
+        <label id="name-label" for="name">
+        <p>Nimi:</p>
+        </label>
+        
+        <input id="nimi" type="text" placeholder="Lisää nimi"></input>
+        
+        
+         <label id="email-label" for="email">
+        <p>Email:</p>
+        </label>
+        
+        <input id="email" type="email" placeholder="Lisää Gmailisi"></input>
+        
+         <label id="number-label" for="number">
+        <p>Ikä:</p>
+        </label>
+        
+        <input id="number" type="number" placeholder="Lisää ikäsi" ></input>
+        
+        <p>Mikä näistä seuraavista tapahtumista on sinun mielestäsi hirvein:</p>
+        <select id="dropdown">
+          
+          <option id="0"></option>
+          <option id="1.">"Nagasaki ja hiroshima pommitus"</option>
+          <option id="2.">"Normandin taistelu</option>
+          <option id="3.">Kuolleiden ihmisten hyökkäys 1915 </option>
+          <option id="4.">Holokausti</option>
+          <option id="5.">Soviet unionin hyökkäys suomeen</option>
+          
+        </select>
+
+        
+        <p>Kerro syy miksi</p>
+        
+        <textarea id="comment" placeholder="Kerro syy valintaasi" rows="4"></textarea>
+        <br>
+        
+    </form>
+    
+    <button id="submit" onclick="Form()"> Submit</button>
+
+</body>
+</html>
